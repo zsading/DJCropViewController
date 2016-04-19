@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1B8AFB1CC5DB3C00DD56D0 /* cropImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B8AFA1CC5DB3C00DD56D0 /* cropImage.gif */; };
 		8F760E151CBCCCFF00241065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E141CBCCCFF00241065 /* main.m */; };
 		8F760E181CBCCCFF00241065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E171CBCCCFF00241065 /* AppDelegate.m */; };
 		8F760E1B1CBCCCFF00241065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E1A1CBCCCFF00241065 /* ViewController.m */; };
@@ -29,7 +30,6 @@
 		8F760E771CBCD21200241065 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E691CBCD21200241065 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		8F760E781CBCD21200241065 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E6B1CBCD21200241065 /* View+MASAdditions.m */; };
 		8F760E791CBCD21200241065 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E6E1CBCD21200241065 /* ViewController+MASAdditions.m */; };
-		8F760E7C1CBCD26200241065 /* CropedImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E7B1CBCD26200241065 /* CropedImageModel.m */; };
 		8F760E801CBCD3D900241065 /* MyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E7F1CBCD3D900241065 /* MyUtil.m */; };
 		8F760E861CBCD5B400241065 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E851CBCD5B400241065 /* UIView+Frame.m */; };
 		8F760E8F1CBCF8E200241065 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F760E8E1CBCF8E200241065 /* demo.png */; };
@@ -56,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F1B8AFA1CC5DB3C00DD56D0 /* cropImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cropImage.gif; sourceTree = "<group>"; };
 		8F760E101CBCCCFF00241065 /* DJCrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJCrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F760E141CBCCCFF00241065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F760E161CBCCCFF00241065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,8 +105,6 @@
 		8F760E6C1CBCD21200241065 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8F760E6D1CBCD21200241065 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		8F760E6E1CBCD21200241065 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		8F760E7A1CBCD26200241065 /* CropedImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropedImageModel.h; sourceTree = "<group>"; };
-		8F760E7B1CBCD26200241065 /* CropedImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropedImageModel.m; sourceTree = "<group>"; };
 		8F760E7D1CBCD35800241065 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		8F760E7E1CBCD3D900241065 /* MyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUtil.h; sourceTree = "<group>"; };
 		8F760E7F1CBCD3D900241065 /* MyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUtil.m; sourceTree = "<group>"; };
@@ -145,6 +144,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F1B8AF91CC5D9E000DD56D0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B8AFA1CC5DB3C00DD56D0 /* cropImage.gif */,
+			);
+			name = Source;
+			path = ../../../../../Yoanna/Documents/DJCrop/DJCrop/DJCrop/Source;
+			sourceTree = "<group>";
+		};
 		8F760E071CBCCCFF00241065 = {
 			isa = PBXGroup;
 			children = (
@@ -168,13 +176,12 @@
 		8F760E121CBCCCFF00241065 /* DJCrop */ = {
 			isa = PBXGroup;
 			children = (
+				8F1B8AF91CC5D9E000DD56D0 /* Source */,
 				8F760E461CBCCD5900241065 /* DJCropViewController */,
 				8F760E161CBCCCFF00241065 /* AppDelegate.h */,
 				8F760E171CBCCCFF00241065 /* AppDelegate.m */,
 				8F760E191CBCCCFF00241065 /* ViewController.h */,
 				8F760E1A1CBCCCFF00241065 /* ViewController.m */,
-				8F760E7A1CBCD26200241065 /* CropedImageModel.h */,
-				8F760E7B1CBCD26200241065 /* CropedImageModel.m */,
 				8F760E8E1CBCF8E200241065 /* demo.png */,
 				8F760E1C1CBCCCFF00241065 /* Main.storyboard */,
 				8F760E1F1CBCCCFF00241065 /* Assets.xcassets */,
@@ -382,6 +389,7 @@
 			files = (
 				8F760E6F1CBCD21200241065 /* Info.plist in Resources */,
 				8F760E8F1CBCF8E200241065 /* demo.png in Resources */,
+				8F1B8AFB1CC5DB3C00DD56D0 /* cropImage.gif in Resources */,
 				8F760E231CBCCCFF00241065 /* LaunchScreen.storyboard in Resources */,
 				8F760E201CBCCCFF00241065 /* Assets.xcassets in Resources */,
 				8F760E1E1CBCCCFF00241065 /* Main.storyboard in Resources */,
@@ -429,7 +437,6 @@
 				8F760E9B1CBE46F600241065 /* DJCropViewController.m in Sources */,
 				8F760E151CBCCCFF00241065 /* main.m in Sources */,
 				8F760E791CBCD21200241065 /* ViewController+MASAdditions.m in Sources */,
-				8F760E7C1CBCD26200241065 /* CropedImageModel.m in Sources */,
 				8F760E801CBCD3D900241065 /* MyUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

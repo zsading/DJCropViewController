@@ -34,7 +34,7 @@
     
     
     self.backgroundColor = [UIColor whiteColor];
-    //裁剪按钮
+    //crop button
     self.cropBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.cropBtn setTitle:@"crop" forState:UIControlStateNormal];
     [self.cropBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
