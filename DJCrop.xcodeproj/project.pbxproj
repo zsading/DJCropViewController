@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F1B8AFB1CC5DB3C00DD56D0 /* cropImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B8AFA1CC5DB3C00DD56D0 /* cropImage.gif */; };
+		8F1B8AFD1CC5E2B200DD56D0 /* architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B8AFC1CC5E2B200DD56D0 /* architecture.png */; };
 		8F760E151CBCCCFF00241065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E141CBCCCFF00241065 /* main.m */; };
 		8F760E181CBCCCFF00241065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E171CBCCCFF00241065 /* AppDelegate.m */; };
 		8F760E1B1CBCCCFF00241065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E1A1CBCCCFF00241065 /* ViewController.m */; };
@@ -57,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		8F1B8AFA1CC5DB3C00DD56D0 /* cropImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cropImage.gif; sourceTree = "<group>"; };
+		8F1B8AFC1CC5E2B200DD56D0 /* architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = architecture.png; sourceTree = "<group>"; };
 		8F760E101CBCCCFF00241065 /* DJCrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJCrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F760E141CBCCCFF00241065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F760E161CBCCCFF00241065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		8F1B8AF91CC5D9E000DD56D0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				8F1B8AFC1CC5E2B200DD56D0 /* architecture.png */,
 				8F1B8AFA1CC5DB3C00DD56D0 /* cropImage.gif */,
 			);
 			name = Source;
@@ -387,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1B8AFD1CC5E2B200DD56D0 /* architecture.png in Resources */,
 				8F760E6F1CBCD21200241065 /* Info.plist in Resources */,
 				8F760E8F1CBCF8E200241065 /* demo.png in Resources */,
 				8F1B8AFB1CC5DB3C00DD56D0 /* cropImage.gif in Resources */,
