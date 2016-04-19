@@ -26,9 +26,6 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.containerView = [[DJContainerView alloc] initWithImage:[UIImage imageNamed:@"demo.png"] andFrame:CGRectMake(0, 64, 375, 667-64-44)];
 
-    BOOL landscapeLayout = CGRectGetWidth(self.view.frame) > CGRectGetHeight(self.view.frame);
-//    self.containerView.frame = (CGRect){(landscapeLayout ? 44.0f : 0.0f),0,(CGRectGetWidth(self.view.bounds) - (landscapeLayout ? 44.0f : 0.0f)), (CGRectGetHeight(self.view.bounds)-(landscapeLayout ? 0.0f : 44.0f)) };
-//    self.containerView.frame = CGRectMake(0, 64, 375, 667-64-44);
     self.containerView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self.view addSubview:self.containerView];
     
