@@ -9,4 +9,5 @@ be continue
 ![](https://github.com/zsading/DJCropViewController/blob/master/DJCrop/Source/architecture.png)  
 
 
+###Snapshot
 ![](https://github.com/zsading/DJCropViewController/blob/master/DJCrop/Source/cropImage.gif)  
