@@ -4,10 +4,10 @@ A tool to crop image
 
 be continue
 
-###Architecture
+### Architecture
 
-![](https://github.com/zsading/DJCropViewController/blob/master/DJCrop/Source/architecture.png)  
+![](https://github.com/zsading/DJCropViewController/blob/master/Source/architecture.png)  
 
 
-###Snapshot
-![](https://github.com/zsading/DJCropViewController/blob/master/DJCrop/Source/cropImage.gif)  
+### Snapshot
+![](https://github.com/zsading/DJCropViewController/blob/master/Source/cropImage.gif)  
