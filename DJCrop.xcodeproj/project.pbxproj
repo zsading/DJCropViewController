@@ -7,20 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F1B8AFB1CC5DB3C00DD56D0 /* cropImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B8AFA1CC5DB3C00DD56D0 /* cropImage.gif */; };
-		8F1B8AFD1CC5E2B200DD56D0 /* architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B8AFC1CC5E2B200DD56D0 /* architecture.png */; };
 		8F760E151CBCCCFF00241065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E141CBCCCFF00241065 /* main.m */; };
 		8F760E181CBCCCFF00241065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E171CBCCCFF00241065 /* AppDelegate.m */; };
 		8F760E1B1CBCCCFF00241065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E1A1CBCCCFF00241065 /* ViewController.m */; };
 		8F760E1E1CBCCCFF00241065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F760E1C1CBCCCFF00241065 /* Main.storyboard */; };
 		8F760E201CBCCCFF00241065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F760E1F1CBCCCFF00241065 /* Assets.xcassets */; };
 		8F760E231CBCCCFF00241065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F760E211CBCCCFF00241065 /* LaunchScreen.storyboard */; };
-		8F760E2E1CBCCCFF00241065 /* DJCropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E2D1CBCCCFF00241065 /* DJCropTests.m */; };
-		8F760E391CBCCCFF00241065 /* DJCropUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E381CBCCCFF00241065 /* DJCropUITests.m */; };
 		8F760E4D1CBCD0FB00241065 /* DJCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E4C1CBCD0FB00241065 /* DJCropToolbar.m */; };
 		8F760E501CBCD14100241065 /* HomeCropSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E4F1CBCD14100241065 /* HomeCropSquare.m */; };
 		8F760E531CBCD1B000241065 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E521CBCD1B000241065 /* UIImage+Crop.m */; };
-		8F760E6F1CBCD21200241065 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F760E551CBCD21200241065 /* Info.plist */; };
 		8F760E701CBCD21200241065 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E571CBCD21200241065 /* MASCompositeConstraint.m */; };
 		8F760E711CBCD21200241065 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E5A1CBCD21200241065 /* MASConstraint.m */; };
 		8F760E721CBCD21200241065 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E5C1CBCD21200241065 /* MASConstraintMaker.m */; };
@@ -33,7 +28,6 @@
 		8F760E791CBCD21200241065 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E6E1CBCD21200241065 /* ViewController+MASAdditions.m */; };
 		8F760E801CBCD3D900241065 /* MyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E7F1CBCD3D900241065 /* MyUtil.m */; };
 		8F760E861CBCD5B400241065 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E851CBCD5B400241065 /* UIView+Frame.m */; };
-		8F760E8F1CBCF8E200241065 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F760E8E1CBCF8E200241065 /* demo.png */; };
 		8F760E921CBDD5BC00241065 /* DJContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E911CBDD5BC00241065 /* DJContainerView.m */; };
 		8F760E951CBDF3C800241065 /* DJCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E941CBDF3C800241065 /* DJCropScrollView.m */; };
 		8F760E9B1CBE46F600241065 /* DJCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F760E9A1CBE46F600241065 /* DJCropViewController.m */; };
@@ -57,8 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8F1B8AFA1CC5DB3C00DD56D0 /* cropImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cropImage.gif; sourceTree = "<group>"; };
-		8F1B8AFC1CC5E2B200DD56D0 /* architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = architecture.png; sourceTree = "<group>"; };
 		8F760E101CBCCCFF00241065 /* DJCrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJCrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F760E141CBCCCFF00241065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F760E161CBCCCFF00241065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,18 +62,13 @@
 		8F760E221CBCCCFF00241065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F760E241CBCCCFF00241065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F760E291CBCCCFF00241065 /* DJCropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJCropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F760E2D1CBCCCFF00241065 /* DJCropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJCropTests.m; sourceTree = "<group>"; };
-		8F760E2F1CBCCCFF00241065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F760E341CBCCCFF00241065 /* DJCropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJCropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F760E381CBCCCFF00241065 /* DJCropUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJCropUITests.m; sourceTree = "<group>"; };
-		8F760E3A1CBCCCFF00241065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F760E4B1CBCD0FB00241065 /* DJCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCropToolbar.h; sourceTree = "<group>"; };
 		8F760E4C1CBCD0FB00241065 /* DJCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCropToolbar.m; sourceTree = "<group>"; };
 		8F760E4E1CBCD14100241065 /* HomeCropSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCropSquare.h; sourceTree = "<group>"; };
 		8F760E4F1CBCD14100241065 /* HomeCropSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCropSquare.m; sourceTree = "<group>"; };
 		8F760E511CBCD1B000241065 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
 		8F760E521CBCD1B000241065 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
-		8F760E551CBCD21200241065 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F760E561CBCD21200241065 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		8F760E571CBCD21200241065 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		8F760E581CBCD21200241065 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -112,7 +99,6 @@
 		8F760E7F1CBCD3D900241065 /* MyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUtil.m; sourceTree = "<group>"; };
 		8F760E841CBCD5B400241065 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		8F760E851CBCD5B400241065 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		8F760E8E1CBCF8E200241065 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 		8F760E901CBDD5BC00241065 /* DJContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJContainerView.h; sourceTree = "<group>"; };
 		8F760E911CBDD5BC00241065 /* DJContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJContainerView.m; sourceTree = "<group>"; };
 		8F760E931CBDF3C800241065 /* DJCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCropScrollView.h; sourceTree = "<group>"; };
@@ -146,22 +132,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F1B8AF91CC5D9E000DD56D0 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				8F1B8AFC1CC5E2B200DD56D0 /* architecture.png */,
-				8F1B8AFA1CC5DB3C00DD56D0 /* cropImage.gif */,
-			);
-			name = Source;
-			path = ../../../../../Yoanna/Documents/DJCrop/DJCrop/DJCrop/Source;
-			sourceTree = "<group>";
-		};
 		8F760E071CBCCCFF00241065 = {
 			isa = PBXGroup;
 			children = (
 				8F760E121CBCCCFF00241065 /* DJCrop */,
-				8F760E2C1CBCCCFF00241065 /* DJCropTests */,
-				8F760E371CBCCCFF00241065 /* DJCropUITests */,
 				8F760E111CBCCCFF00241065 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,13 +153,11 @@
 		8F760E121CBCCCFF00241065 /* DJCrop */ = {
 			isa = PBXGroup;
 			children = (
-				8F1B8AF91CC5D9E000DD56D0 /* Source */,
 				8F760E461CBCCD5900241065 /* DJCropViewController */,
 				8F760E161CBCCCFF00241065 /* AppDelegate.h */,
 				8F760E171CBCCCFF00241065 /* AppDelegate.m */,
 				8F760E191CBCCCFF00241065 /* ViewController.h */,
 				8F760E1A1CBCCCFF00241065 /* ViewController.m */,
-				8F760E8E1CBCF8E200241065 /* demo.png */,
 				8F760E1C1CBCCCFF00241065 /* Main.storyboard */,
 				8F760E1F1CBCCCFF00241065 /* Assets.xcassets */,
 				8F760E211CBCCCFF00241065 /* LaunchScreen.storyboard */,
@@ -201,24 +173,6 @@
 				8F760E141CBCCCFF00241065 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8F760E2C1CBCCCFF00241065 /* DJCropTests */ = {
-			isa = PBXGroup;
-			children = (
-				8F760E2D1CBCCCFF00241065 /* DJCropTests.m */,
-				8F760E2F1CBCCCFF00241065 /* Info.plist */,
-			);
-			path = DJCropTests;
-			sourceTree = "<group>";
-		};
-		8F760E371CBCCCFF00241065 /* DJCropUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8F760E381CBCCCFF00241065 /* DJCropUITests.m */,
-				8F760E3A1CBCCCFF00241065 /* Info.plist */,
-			);
-			path = DJCropUITests;
 			sourceTree = "<group>";
 		};
 		8F760E461CBCCD5900241065 /* DJCropViewController */ = {
@@ -257,7 +211,6 @@
 		8F760E541CBCD21200241065 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				8F760E551CBCD21200241065 /* Info.plist */,
 				8F760E561CBCD21200241065 /* MASCompositeConstraint.h */,
 				8F760E571CBCD21200241065 /* MASCompositeConstraint.m */,
 				8F760E581CBCD21200241065 /* MASConstraint+Private.h */,
@@ -390,10 +343,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1B8AFD1CC5E2B200DD56D0 /* architecture.png in Resources */,
-				8F760E6F1CBCD21200241065 /* Info.plist in Resources */,
-				8F760E8F1CBCF8E200241065 /* demo.png in Resources */,
-				8F1B8AFB1CC5DB3C00DD56D0 /* cropImage.gif in Resources */,
 				8F760E231CBCCCFF00241065 /* LaunchScreen.storyboard in Resources */,
 				8F760E201CBCCCFF00241065 /* Assets.xcassets in Resources */,
 				8F760E1E1CBCCCFF00241065 /* Main.storyboard in Resources */,
@@ -449,7 +398,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F760E2E1CBCCCFF00241065 /* DJCropTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +405,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F760E391CBCCCFF00241065 /* DJCropUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

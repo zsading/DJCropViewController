@@ -2,7 +2,7 @@
 //  DJContainerView.h
 //  DJCrop
 //
-//  Created by yoanna on 16/4/13.
+//  Created by dingjia on 16/4/13.
 //  Copyright © 2016年 dingjia. All rights reserved.
 //
 

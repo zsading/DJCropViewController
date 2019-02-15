@@ -2,7 +2,7 @@
 //  DJContainerView.m
 //  DJCrop
 //
-//  Created by yoanna on 16/4/13.
+//  Created by dingjia on 16/4/13.
 //  Copyright © 2016年 dingjia. All rights reserved.
 //
 
@@ -99,8 +99,6 @@ typedef NS_ENUM(NSInteger, DJCropViewOverlayEdge) {
 
 - (void)setup{
     
-//    self.aspectLockEnabled = YES;
-    
     //initialize
     self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.backgroundColor = [UIColor blackColor];
@@ -119,6 +117,7 @@ typedef NS_ENUM(NSInteger, DJCropViewOverlayEdge) {
     
     //backgroundImage
     self.backgroundImageView = [[UIImageView alloc] initWithImage:self.image];
+    self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
     
     //backgroundContainer
     self.backgroundContainerView = [[UIView alloc] initWithFrame:self.backgroundImageView.frame];

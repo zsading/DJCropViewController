@@ -7,15 +7,11 @@
 //
 
 #import "ViewController.h"
-
-
+#import "DJCropViewController/DJCropViewController.h"
 
 @interface ViewController ()
-
-
-
-@property (nonatomic,strong) UIImageView *imageView;
-
+@property (weak, nonatomic) IBOutlet UIImageView *demoImageView;
+@property (nonatomic ,strong) DJCropViewController *cropViewController;
 @end
 
 @implementation ViewController
@@ -23,10 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.imageView = [[UIImageView alloc] initWithImage:self.image];
-    self.imageView.center = self.view.center;
-    self.view.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:self.imageView];
+    [self.cropViewController cropImageWithCompletion:^(UIImage *cropImage) {
+        [self.navigationController popViewControllerAnimated:YES];
+        self.demoImageView.image = cropImage;
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +30,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)cropImageAction:(UIButton *)sender {
+    [self.navigationController pushViewController:self.cropViewController animated:YES];
+}
+
+
+- (DJCropViewController *)cropViewController {
+    if (!_cropViewController) {
+        _cropViewController = [[DJCropViewController alloc] init];
+    }
+    return _cropViewController;
+}
 @end

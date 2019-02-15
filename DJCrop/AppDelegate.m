@@ -18,17 +18,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    
-//    CropingViewController *cropCtrl = [[CropingViewController alloc] init];
-//    cropCtrl.fullImage = [UIImage imageNamed:@"demo.png"];
-//    cropCtrl.rectsArray = [NSMutableArray arrayWithObject:[NSValue valueWithCGRect:CGRectMake(0, 0, 200, 100)]];
-     DJCropViewController *cropCtrl = [[DJCropViewController alloc] init];
-    UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:cropCtrl];
-   
-    
-    self.window.rootViewController = navCtrl;
-    
-    
     return YES;
 }
 
